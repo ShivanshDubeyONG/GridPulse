@@ -181,7 +181,7 @@ GridPulse adheres to strict physical and ethical boundaries:
 1. **No RUL Overclaiming:** The system does **not** estimate whole-life Remaining Useful Life (RUL) in hours or years without verified multi-year degradation datasets and dissolved gas analysis (DGA).
 2. **No Arbitrary Failure Probability Claims:** Arbitrary statistical failure percentages (e.g. "94.2% chance of failure") are rejected in favor of empirical conformal confidence intervals and multi-domain evidence corroboration.
 3. **No Autonomous Switching Control:** The twin operates strictly as a decision-support advisory system; autonomous breaker or tap-changer commands are prohibited.
-4. **Insulation Ageing Gating:** Arrhenius/IEEE C57.91 thermal life consumption calculations remain disabled (`C4_THERMAL_INSULATION_LIFETIME = False`) unless verified paper insulation class and calibrated hotspot temperatures exist.
+4. **Insulation Ageing Gating:** Arrhenius/IEEE C57.91 thermal life consumption calculations remain disabled unless verified paper insulation class and calibrated hotspot temperatures exist.
 5. **No Waveform Reconstruction:** 30-minute SCADA telemetry cannot reconstruct sub-cycle short-circuit waveforms or peak asymmetry. Symmetrical short-circuit values are reported solely as prospective reference indicators.
 6. **No Spontaneous Oil Recovery:** Telemetry oil-level slope does not prove a physical leak; it emits advisory `MNT-OIL-008` triggering physical visual inspection.
 
